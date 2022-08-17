@@ -1,0 +1,94 @@
+* {
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body #title{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0px 40px 0px;
+}
+
+body #image{
+    height: 600px;
+    width: 1360px;
+    object-fit: cover;
+}
+
+body #img-caption{
+    padding: 20px 150px 100px 150px;
+    text-align: center;
+}
+
+body #headline{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 0px 80px 0px;
+}
+
+body #yuta-info{
+    padding-left: 160px;
+    padding-right: 50px;
+    float: left;
+    width: 50%;
+}
+
+body #image2{
+    padding-left: 40px;
+    padding-right: 160px;
+    height: 320px;
+    width: 50%;
+    float: left;
+}
+
+body #tribute-footer {
+    padding: 400px 0px 50px 0px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+@media (max-width: 460px) {
+    * {
+        font-size: 14px;
+    }
+
+    body #title {
+        font-size: 28px;
+    }
+
+    body #image{
+        width: 100%;
+    }
+
+    body #img-caption{
+        padding: 20px 70px 100px 70px;
+    }
+
+    body #headline {
+        font-size: 28px;
+    }
+
+    body #yuta-info{
+        padding: 0px 70px 70px 70px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    body #image2{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        float: none;
+    }
+
+    body #tribute-footer {
+        padding: 50px 0px 50px 0px;
+        text-align: center;
+    }
+}
